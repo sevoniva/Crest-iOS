@@ -13,6 +13,7 @@
 		358BEEE940E84A6A0987AA26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE5859E7DA9779B52AEF0C /* Assets.xcassets */; };
 		3BB59C7685E89A7B0646651A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C83DED11F265E54F151E20E /* ProfileView.swift */; };
 		3EC819E93B91514E7AB91448 /* DashboardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117EC863E27FCCCFAD202ED /* DashboardListView.swift */; };
+		556F4D01790B26F992312074 /* CrestPreviewWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F6139B1AE170FF3A2F7E02 /* CrestPreviewWebView.swift */; };
 		6EF5E18F85755908792F37B4 /* DashboardCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21123C9564583C5697F94F30 /* DashboardCache.swift */; };
 		73E574FE5A9CA098EE21FEAE /* DashboardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD90B6BFFB1F64E6320EBB23 /* DashboardListViewModel.swift */; };
 		827D3B1AE5FACBE97FDF7CB5 /* RSAEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98814C657FA61DE76AE63DB2 /* RSAEncryptor.swift */; };
@@ -22,7 +23,6 @@
 		AB2F3722EB08538EDEB228BF /* CrestIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E791F486A78F2314DED2B651 /* CrestIOSApp.swift */; };
 		AEDF5E362CB6719B1819F13C /* AuthModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451226FC061F17C3AE0407B6 /* AuthModels.swift */; };
 		B596C60603CFEF76F4DB17FF /* TokenStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E95D495E309CD85BDF7E85 /* TokenStorage.swift */; };
-		E6B0FA74F6117DE229294D65 /* ChartWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD2406D5AAE21446A93C1EE /* ChartWebView.swift */; };
 		E78A1759A4952C69E78337BD /* DashboardAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F275743BEDC139FF0E7855D /* DashboardAPI.swift */; };
 		EC2766594752C31137986893 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296120C57C001C9D0612F2FB /* APIService.swift */; };
 /* End PBXBuildFile section */
@@ -32,9 +32,9 @@
 		0C83DED11F265E54F151E20E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		21123C9564583C5697F94F30 /* DashboardCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCache.swift; sourceTree = "<group>"; };
 		296120C57C001C9D0612F2FB /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
-		2AD2406D5AAE21446A93C1EE /* ChartWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartWebView.swift; sourceTree = "<group>"; };
 		33E95D495E309CD85BDF7E85 /* TokenStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStorage.swift; sourceTree = "<group>"; };
 		41318D21657CDA5968BCED63 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		44F6139B1AE170FF3A2F7E02 /* CrestPreviewWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrestPreviewWebView.swift; sourceTree = "<group>"; };
 		451226FC061F17C3AE0407B6 /* AuthModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModels.swift; sourceTree = "<group>"; };
 		5117EC863E27FCCCFAD202ED /* DashboardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardListView.swift; sourceTree = "<group>"; };
 		51CAA7C84176C4043B5120D7 /* AuthAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAPI.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		19E35DD2391B94F55BE8D09B /* DashboardDetail */ = {
 			isa = PBXGroup;
 			children = (
-				2AD2406D5AAE21446A93C1EE /* ChartWebView.swift */,
+				44F6139B1AE170FF3A2F7E02 /* CrestPreviewWebView.swift */,
 				FF048065EB62D7671FC33F63 /* DashboardDetailView.swift */,
 				00E69C4104042A2CEF1055B7 /* DashboardDetailViewModel.swift */,
 			);
@@ -252,8 +252,8 @@
 				342C088D6E29E523365FB69C /* AppState.swift in Sources */,
 				A82BC6880BD3E7A1F0EBEF35 /* AuthAPI.swift in Sources */,
 				AEDF5E362CB6719B1819F13C /* AuthModels.swift in Sources */,
-				E6B0FA74F6117DE229294D65 /* ChartWebView.swift in Sources */,
 				AB2F3722EB08538EDEB228BF /* CrestIOSApp.swift in Sources */,
+				556F4D01790B26F992312074 /* CrestPreviewWebView.swift in Sources */,
 				E78A1759A4952C69E78337BD /* DashboardAPI.swift in Sources */,
 				6EF5E18F85755908792F37B4 /* DashboardCache.swift in Sources */,
 				98B2702C01158F5679DA2138 /* DashboardDetailView.swift in Sources */,

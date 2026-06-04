@@ -3,14 +3,7 @@ import Observation
 
 @Observable
 final class AppState {
-    var isLoggedIn: Bool {
-        didSet {
-            if isLoggedIn {
-                token = TokenStorage.loadToken()
-            }
-        }
-    }
-    
+    var isLoggedIn: Bool
     var token: String?
     var userInfo: UserInfo?
     
@@ -31,5 +24,8 @@ final class AppState {
         self.userInfo = nil
         self.isLoggedIn = false
         TokenStorage.deleteToken()
+        Task {
+            await DashboardCache.clear()
+        }
     }
 }

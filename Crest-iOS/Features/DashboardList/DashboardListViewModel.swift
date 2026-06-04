@@ -6,6 +6,7 @@ final class DashboardListViewModel {
     var nodes: [DashboardNode] = []
     var isLoading = false
     var errorMessage: String?
+    var isRefreshing = false
     
     private let token: String
     
@@ -14,6 +15,7 @@ final class DashboardListViewModel {
     }
     
     func load() async {
+        guard !isLoading else { return }
         isLoading = true
         errorMessage = nil
         
@@ -25,8 +27,26 @@ final class DashboardListViewModel {
             }
         } catch {
             await MainActor.run {
-                self.errorMessage = error.localizedDescription
+                self.errorMessage = "加载失败：\(error.localizedDescription)"
                 self.isLoading = false
+            }
+        }
+    }
+    
+    func refresh() async {
+        isRefreshing = true
+        errorMessage = nil
+        
+        do {
+            let data = try await DashboardAPI.fetchTree(token: token)
+            await MainActor.run {
+                self.nodes = data
+                self.isRefreshing = false
+            }
+        } catch {
+            await MainActor.run {
+                self.errorMessage = "刷新失败：\(error.localizedDescription)"
+                self.isRefreshing = false
             }
         }
     }
