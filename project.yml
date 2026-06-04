@@ -1,0 +1,26 @@
+name: Crest-iOS
+targets:
+  Crest-iOS:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: Crest-iOS
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.sevoniva.crest
+        INFOPLIST_FILE: Crest-iOS/Resources/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        SWIFT_VERSION: "5.9"
+        TARGETED_DEVICE_FAMILY: "1,2"
+    info:
+      path: Crest-iOS/Resources/Info.plist
+      properties:
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UILaunchScreen:
+          UILaunchScreen: {}
+        NSCameraUsageDescription: "Crest may use camera for scanning."
+        NSPhotoLibraryUsageDescription: "Crest may access photos for uploads."

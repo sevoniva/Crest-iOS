@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F22FE526E6A6E0ADABDED8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE7C7E9075DD2A078F91220 /* LoginView.swift */; };
+		094113E6E19BB467E761331C /* DashboardModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A683F0F67E24F181242C8524 /* DashboardModels.swift */; };
+		342C088D6E29E523365FB69C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41318D21657CDA5968BCED63 /* AppState.swift */; };
+		358BEEE940E84A6A0987AA26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE5859E7DA9779B52AEF0C /* Assets.xcassets */; };
+		3BB59C7685E89A7B0646651A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C83DED11F265E54F151E20E /* ProfileView.swift */; };
+		3EC819E93B91514E7AB91448 /* DashboardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117EC863E27FCCCFAD202ED /* DashboardListView.swift */; };
+		6EF5E18F85755908792F37B4 /* DashboardCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21123C9564583C5697F94F30 /* DashboardCache.swift */; };
+		73E574FE5A9CA098EE21FEAE /* DashboardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD90B6BFFB1F64E6320EBB23 /* DashboardListViewModel.swift */; };
+		827D3B1AE5FACBE97FDF7CB5 /* RSAEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98814C657FA61DE76AE63DB2 /* RSAEncryptor.swift */; };
+		847153CE3F7799C7FD846CA9 /* DashboardDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E69C4104042A2CEF1055B7 /* DashboardDetailViewModel.swift */; };
+		98B2702C01158F5679DA2138 /* DashboardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF048065EB62D7671FC33F63 /* DashboardDetailView.swift */; };
+		A82BC6880BD3E7A1F0EBEF35 /* AuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CAA7C84176C4043B5120D7 /* AuthAPI.swift */; };
+		AB2F3722EB08538EDEB228BF /* CrestIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E791F486A78F2314DED2B651 /* CrestIOSApp.swift */; };
+		AEDF5E362CB6719B1819F13C /* AuthModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451226FC061F17C3AE0407B6 /* AuthModels.swift */; };
+		B596C60603CFEF76F4DB17FF /* TokenStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E95D495E309CD85BDF7E85 /* TokenStorage.swift */; };
+		E6B0FA74F6117DE229294D65 /* ChartWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD2406D5AAE21446A93C1EE /* ChartWebView.swift */; };
+		E78A1759A4952C69E78337BD /* DashboardAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F275743BEDC139FF0E7855D /* DashboardAPI.swift */; };
+		EC2766594752C31137986893 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296120C57C001C9D0612F2FB /* APIService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00E69C4104042A2CEF1055B7 /* DashboardDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardDetailViewModel.swift; sourceTree = "<group>"; };
+		0C83DED11F265E54F151E20E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		21123C9564583C5697F94F30 /* DashboardCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCache.swift; sourceTree = "<group>"; };
+		296120C57C001C9D0612F2FB /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		2AD2406D5AAE21446A93C1EE /* ChartWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartWebView.swift; sourceTree = "<group>"; };
+		33E95D495E309CD85BDF7E85 /* TokenStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStorage.swift; sourceTree = "<group>"; };
+		41318D21657CDA5968BCED63 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		451226FC061F17C3AE0407B6 /* AuthModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModels.swift; sourceTree = "<group>"; };
+		5117EC863E27FCCCFAD202ED /* DashboardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardListView.swift; sourceTree = "<group>"; };
+		51CAA7C84176C4043B5120D7 /* AuthAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAPI.swift; sourceTree = "<group>"; };
+		5F275743BEDC139FF0E7855D /* DashboardAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardAPI.swift; sourceTree = "<group>"; };
+		89B17A33B9FA6C129814F8EA /* Crest-iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "Crest-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ADE5859E7DA9779B52AEF0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98814C657FA61DE76AE63DB2 /* RSAEncryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAEncryptor.swift; sourceTree = "<group>"; };
+		A683F0F67E24F181242C8524 /* DashboardModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModels.swift; sourceTree = "<group>"; };
+		CD90B6BFFB1F64E6320EBB23 /* DashboardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardListViewModel.swift; sourceTree = "<group>"; };
+		DCB3D936DB438EA58BA9A8AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E791F486A78F2314DED2B651 /* CrestIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrestIOSApp.swift; sourceTree = "<group>"; };
+		EEE7C7E9075DD2A078F91220 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FF048065EB62D7671FC33F63 /* DashboardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		19E35DD2391B94F55BE8D09B /* DashboardDetail */ = {
+			isa = PBXGroup;
+			children = (
+				2AD2406D5AAE21446A93C1EE /* ChartWebView.swift */,
+				FF048065EB62D7671FC33F63 /* DashboardDetailView.swift */,
+				00E69C4104042A2CEF1055B7 /* DashboardDetailViewModel.swift */,
+			);
+			path = DashboardDetail;
+			sourceTree = "<group>";
+		};
+		1F65D8039EA055553468DD31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8ADE5859E7DA9779B52AEF0C /* Assets.xcassets */,
+				DCB3D936DB438EA58BA9A8AA /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		26EB0DF5CE26CFE6C7040E69 = {
+			isa = PBXGroup;
+			children = (
+				2B77561558BE255D06DDCA2D /* Crest-iOS */,
+				55ACDBB7F525BFE3B1677AD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B77561558BE255D06DDCA2D /* Crest-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A3AA6487D5B08DFA3FB50AEE /* App */,
+				D4BB0A639B2C48D07B2F1756 /* Core */,
+				469ADD283FD38F4703108947 /* Features */,
+				1F65D8039EA055553468DD31 /* Resources */,
+			);
+			path = "Crest-iOS";
+			sourceTree = "<group>";
+		};
+		40F7591A60956234AA546E28 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EEE7C7E9075DD2A078F91220 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		469ADD283FD38F4703108947 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				19E35DD2391B94F55BE8D09B /* DashboardDetail */,
+				554F0A9BF1C324D59AE7F67B /* DashboardList */,
+				40F7591A60956234AA546E28 /* Login */,
+				5710AF38F4731B06CEE243C7 /* Profile */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		554F0A9BF1C324D59AE7F67B /* DashboardList */ = {
+			isa = PBXGroup;
+			children = (
+				5117EC863E27FCCCFAD202ED /* DashboardListView.swift */,
+				CD90B6BFFB1F64E6320EBB23 /* DashboardListViewModel.swift */,
+			);
+			path = DashboardList;
+			sourceTree = "<group>";
+		};
+		55ACDBB7F525BFE3B1677AD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89B17A33B9FA6C129814F8EA /* Crest-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5710AF38F4731B06CEE243C7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0C83DED11F265E54F151E20E /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A3AA6487D5B08DFA3FB50AEE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				41318D21657CDA5968BCED63 /* AppState.swift */,
+				E791F486A78F2314DED2B651 /* CrestIOSApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE38E870D34AA9AFCE05580F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				21123C9564583C5697F94F30 /* DashboardCache.swift */,
+				98814C657FA61DE76AE63DB2 /* RSAEncryptor.swift */,
+				33E95D495E309CD85BDF7E85 /* TokenStorage.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D4BB0A639B2C48D07B2F1756 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DC3E8850261E4B33D9585915 /* API */,
+				F8D1CB2D80717AFA8A5100C1 /* Models */,
+				CE38E870D34AA9AFCE05580F /* Utils */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DC3E8850261E4B33D9585915 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				296120C57C001C9D0612F2FB /* APIService.swift */,
+				51CAA7C84176C4043B5120D7 /* AuthAPI.swift */,
+				5F275743BEDC139FF0E7855D /* DashboardAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F8D1CB2D80717AFA8A5100C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				451226FC061F17C3AE0407B6 /* AuthModels.swift */,
+				A683F0F67E24F181242C8524 /* DashboardModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A964784D03182D47AD7AF52 /* Crest-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB2972BC2AD6B20E08F8ED0 /* Build configuration list for PBXNativeTarget "Crest-iOS" */;
+			buildPhases = (
+				10917443B2829FF49511081C /* Sources */,
+				201FDCA02040CC1CC2C1D37E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crest-iOS";
+			packageProductDependencies = (
+			);
+			productName = "Crest-iOS";
+			productReference = 89B17A33B9FA6C129814F8EA /* Crest-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE308852D332D9F579BAB753 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = B15247BE2954588E89D4D0B9 /* Build configuration list for PBXProject "Crest-iOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 26EB0DF5CE26CFE6C7040E69;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 55ACDBB7F525BFE3B1677AD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A964784D03182D47AD7AF52 /* Crest-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		201FDCA02040CC1CC2C1D37E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358BEEE940E84A6A0987AA26 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10917443B2829FF49511081C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2766594752C31137986893 /* APIService.swift in Sources */,
+				342C088D6E29E523365FB69C /* AppState.swift in Sources */,
+				A82BC6880BD3E7A1F0EBEF35 /* AuthAPI.swift in Sources */,
+				AEDF5E362CB6719B1819F13C /* AuthModels.swift in Sources */,
+				E6B0FA74F6117DE229294D65 /* ChartWebView.swift in Sources */,
+				AB2F3722EB08538EDEB228BF /* CrestIOSApp.swift in Sources */,
+				E78A1759A4952C69E78337BD /* DashboardAPI.swift in Sources */,
+				6EF5E18F85755908792F37B4 /* DashboardCache.swift in Sources */,
+				98B2702C01158F5679DA2138 /* DashboardDetailView.swift in Sources */,
+				847153CE3F7799C7FD846CA9 /* DashboardDetailViewModel.swift in Sources */,
+				3EC819E93B91514E7AB91448 /* DashboardListView.swift in Sources */,
+				73E574FE5A9CA098EE21FEAE /* DashboardListViewModel.swift in Sources */,
+				094113E6E19BB467E761331C /* DashboardModels.swift in Sources */,
+				01F22FE526E6A6E0ADABDED8 /* LoginView.swift in Sources */,
+				3BB59C7685E89A7B0646651A /* ProfileView.swift in Sources */,
+				827D3B1AE5FACBE97FDF7CB5 /* RSAEncryptor.swift in Sources */,
+				B596C60603CFEF76F4DB17FF /* TokenStorage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		08C38F88F9A539F70170B996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0BA971B12A57A73CDC9C9406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Crest-iOS/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevoniva.crest;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68E49308AF167F1D2D6BA948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Crest-iOS/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevoniva.crest;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		785865DBF8FC4D07C8375878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B15247BE2954588E89D4D0B9 /* Build configuration list for PBXProject "Crest-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785865DBF8FC4D07C8375878 /* Debug */,
+				08C38F88F9A539F70170B996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ECB2972BC2AD6B20E08F8ED0 /* Build configuration list for PBXNativeTarget "Crest-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA971B12A57A73CDC9C9406 /* Debug */,
+				68E49308AF167F1D2D6BA948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE308852D332D9F579BAB753 /* Project object */;
+}
